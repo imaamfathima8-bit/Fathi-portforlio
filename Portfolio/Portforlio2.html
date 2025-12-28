@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Title>Fathima Imam | Portfolio</Title>
+        <style>
+            .banner a{
+                color:black;
+                font-size: medium;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding: 10px;
+            }
+            .banner {
+               display: flex;
+               gap: 30px;
+             }
+            .icons{
+                display: flex;
+                gap:15px;
+                
+                
+            }
+            .icons img{
+                width:20px;
+                height: 20px;
+            }
+            body{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .banner-back{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(241,211,216);
+                padding: 20px 40px;
+                position: sticky;
+                top:0;
+            }
+
+            h1{
+                font-size: 70px;
+                font-weight: bolder;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 80px 0 40px;
+            }
+            h2{
+                font-size: 40px;
+                text-align: center;
+                
+            }
+
+            .about-in{
+                display: flex;
+                gap:40px;
+                padding:0 40px;
+                justify-content: center;
+            }
+
+            .about-box{
+                width: 800px;
+                border:1px solid #ddd;
+                border-radius: 20px;
+                padding: 40px 50px;
+                line-height: 1.6;
+                font-size: 16px;
+            }
+            .about-img img{
+                width: 600px;
+                height: 500px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+            section{
+                margin-bottom: 80px;
+            }
+
+            .projects{
+                background-color: rgb(225,246,238);
+                padding: 60px 40px;
+            }
+
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap:40px;
+            }
+
+            .grid img{
+                width:100%;
+                aspect-ratio: 16/9;
+                object-fit: cover;
+                border-radius: 12px;
+                margin-bottom: 15px;
+            }
+
+            .grid div{
+                text-align: center;
+                
+            }
+
+            .skills{
+                background-color: rgb(224,216,201);
+                padding: 60px 40px;
+            }
+
+            .skills-grid{
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                gap:40px;
+                text-align: center;
+            }
+
+            .skills-grid div{
+                font-size: 18px;
+                line-height: 1.6;
+            }
+
+            .write{
+                background-color: #e1dce5;
+                padding: 30px 40px;
+                margin-top: 50px;
+            }
+            .write-box{
+                max-width: 700px;
+                margin:40px auto;
+                padding: 20px;
+            }
+
+            .write-box input,
+            .write-box textarea{
+                width:100%;
+                padding:10px;
+                margin-bottom: 15px;
+                font-size:16px;
+            }
+
+            .write-box textarea{
+                height: 120px;
+            }
+
+            .write-box button{
+                width:120px;
+                padding: 10px;
+                background-color: black;
+                color:white;
+                border:none;
+                cursor:pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner-back">
+            <nav class="banner">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <img src="Facebook.png" alt="facebook">
+                <img src="Instagram.png" alt="Instagram">
+                <img src="linked.png" alt="linkedIn">
+            </div>
+
+        </header>
+        
+
+        <main>
+        <h1>Fathima Imam</h1>
+
+        <section id="about">
+            <h2>About me</h2>
+        <div class="about-in">
+            <div class="about-box"> 
+                      Hi! I’m Fathima Imam, a student currently pursuing a degree in Computer Science with Artificial Intelligence. I’ve always been someone who’s deeply curious, observant, and eager to understand how things work—especially in the world of technology. This course has helped me explore the different areas of computing, programming, and intelligent systems, and I’ve been learning a lot, both inside and outside the classroom.<br><br>
+
+What I enjoy most is learning in a way that feels meaningful. Whether it’s working on a group project, understanding how data works, or just figuring out how to make something better, I like to take my time, ask questions, and get to the core of things. I believe learning is not just about grades—it’s about growing as a person, building your mindset, and being open to challenges.<br><br>
+
+I also enjoy being creative and thoughtful in the work I do. I try to keep things honest and simple, but effective. I don’t like shortcuts when it comes to doing something right. I believe kindness, effort, and sincerity go a long way—even in tech.<br><br>
+Outside of academics, I love writing, organizing things, and staying mindful. I like to keep track of my progress and reflect often. I’m someone who values little details—whether in people, projects, or everyday life. I believe in staying grounded and real, even when everything around feels too fast or chaotic.
+<br>
+<br>
+</div>
+
+            <div class="about-img">
+                <img src="me.jpg" alt="my photo">
+
+            </div>
+        </div>
+        </section>
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="grid">
+        <div>
+            <img src="true.jpg">
+            <b>TrueStock</b><br>
+            TrueStock is an inventory management system developed using Java, designed to help small to medium-sized businesses efficiently track and manage their inventory.
+        </div>
+        <div>
+            <img src="iru.jpg">
+            <b>IruBasha</b><br>
+            IruBasha is a kids' learning app primarily designed to support Sinhala and Tamil translation and vocabulary building.  
+The app features a simple, interactive interface with: <br>
+- Frontend: HTML, CSS, JavaScript  <br>
+- Backend: Node.js, Prolog  <br>
+- Database: SQL integration  <br>
+- AI integration for improved language learning support  <br><br>
+
+It aims to make bilingual learning fun and accessible for young children.
+        </div>
+        <div>
+            <img src="med.jpg">
+            <b>MedGuide</b><br>
+            MedGuide is an assistance website designed to help users extract key information from medical scans, tests, and reports. It also provides conversational support to help users understand the seriousness of their condition in simple terms.<br>
+
+- Frontend: HTML, CSS, JavaScript  <br>
+- Backend: PHP  <br>
+- Database: MySQL  <br>
+
+MedGuide aims to make medical data easier to understand for everyone.
+             </div>
+            </div>
+        </section>
+
+<section id="skills" class="skills">
+ <h2>Skills</h2>
+<div class="skills-grid">
+        <div>
+                       <b>Programming Languages</b><br>
+            Java, Python, C++
+        </div>
+        <div>
+            <b>Web Development</b><br>
+            HTML, CSS, JavaScript
+        </div>
+        <div>
+            <b>Tools</b><br>
+            Node.js, Git, VS Code
+        </div>
+        <div>
+            <b>Soft Skills</b><br>
+            Problem-solving,Teamwork,Time management
+        </div>
+        <div>
+            <b>Other Technical skills</b><br>
+            Debugging,Responsive design,Basic SQL 
+        </div>
+    </section>
+
+<section id="contact" class="write">
+    <h2>Write Me</h2>
+    <div class="write-box">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button>Send</button>
+</div>
+</section>
+</main>
+
+
+<script>
+document.querySelector(".write-box button").addEventListener(
+    "click",()=>{
+        const name=document.querySelector("input[type='text']").value.trim();
+        const email=document.querySelector("input[type='email']").value.trim();
+        const message=document.querySelector("textarea").value.trim();
+
+        if(!name||!email||!message){
+            alert("Please fill all fields.");
+        }else{
+            alert("Message sent successfully!");
+        }
+    }
+);
+</script>
+ </body>
+</html>
